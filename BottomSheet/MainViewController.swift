@@ -18,7 +18,6 @@ class MainViewController: UIViewController {
         presentSheet()
     }
     
-    
     private func presentSheet() {
         let sheetViewController = UINavigationController(rootViewController: SheetViewController())
         if let sheet = sheetViewController.sheetPresentationController {
